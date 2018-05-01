@@ -1,3 +1,6 @@
+import { HeaderComponent } from './header.component';
+import { RecipesComponent } from './recipes/recipes.component';
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'rb works!';
+
 }
