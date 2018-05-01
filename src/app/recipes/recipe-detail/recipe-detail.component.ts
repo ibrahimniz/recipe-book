@@ -9,7 +9,10 @@ export class RecipeDetailComponent implements OnInit {
 
   @Input() selectedRecipe: Recipe;
 
-  constructor() { }
+  constructor() {
+
+
+  }
 
   ngOnInit() {
   }
